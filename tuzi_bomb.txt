@@ -1,0 +1,7 @@
+REM Clone TUZI_BOMB, install deps, build, and launch GIFs on the VM desktop
+DELAY 2000
+GUI r
+DELAY 3000
+STRING wsl.exe -e bash -c "ssh -t vboxuser@192.168.56.101 'rm -rf ~/TUZI_BOMB && git clone https://github.com/cjwulfies/TUZI_BOMB.git ~/TUZI_BOMB && cd ~/TUZI_BOMB && chmod +x install.sh build.sh run.sh && ./install.sh && ./build.sh && DISPLAY=:0 ./run.sh 7'"
+DELAY 5000
+ENTER
