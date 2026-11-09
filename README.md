@@ -13,3 +13,6 @@ This project tests the capability of Suricata in detecting and logging SSH and T
 
 **reaction.gif:**
 `This file is a gif that is opened in a selected amount of windows`
+
+**tuzi_bomb.txt:**
+`This file is the Ducky script that is run off of a Flipper Zero`
